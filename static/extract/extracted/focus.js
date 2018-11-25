@@ -9,10 +9,8 @@ function drawFrame() {
 
   switch (frame_index) {
   case 0:
-    // Shadow
-
-    // Unit
-    context.fillStyle = '#000000';
+    //context.fillStyle = '#000000';
+    context.fillStyle = '#dddddd';
     context.fillRect(0, 0, 66, 42);
     context.save();
     context.transform(1, 0, 0, 1, 0, 0);
